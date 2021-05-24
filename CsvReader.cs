@@ -31,17 +31,6 @@ namespace SmartToolingMiniProject
         {
             string[] parts = csvLine.Split(',');
 
-            //string machineName;
-            //string assetName;
-            //string seriesName;
-
-            
-            //        machineName = parts[0];
-            //        assetName = parts[1];
-            //        seriesName = parts[2];
-
-
-                  
             return new Assets() { MachineName=parts[0], AssetName=parts[1], SeriesName=parts[2]};
         }
     }

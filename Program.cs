@@ -10,7 +10,7 @@ namespace SmartToolingMiniProject
         static void Main(string[] args)
         {
             int choice = 0;
-            string file_path = @"F:\PProject\Advanced\SmartToolingMiniProject\Matrix.txt";
+            string file_path = @"F:\PProject\Advanced\MatrixLib\Matrix.txt";
             CsvReader reader = new CsvReader(file_path);
             var assets = reader.GetAssetsFromFile();
             
