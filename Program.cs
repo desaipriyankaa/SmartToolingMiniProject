@@ -48,6 +48,23 @@ namespace SmartToolingMiniProject
                     }
                     break;
 
+               // case 3:
+                    //var query = from s in assets
+                    //            group s by s.SeriesName into srgrp
+                    //            select new
+                    //            {
+                    //                machine = srgrp.Key,
+                    //                topseries=srgrp.Max(x=>x.SeriesName),
+                    //            };
+
+                    // var query = assets.Max(x => x.SeriesName);
+                    
+                    //foreach (var item in query)
+                    //{
+                    //    Console.WriteLine($"{item.MachineName},{item.AssetName},{item.SeriesName}");
+                   
+                    //}
+                    //break;
                 default:
                     break;
             }
