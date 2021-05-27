@@ -5,12 +5,13 @@ using System.Text;
 
 namespace SmartToolingMiniProject
 {
-    class CsvReader
+    public class CsvReader
     {
         private string _csvFilePath;
-        public CsvReader(string csvfilePath)
+
+        public CsvReader(string csvFilepath)
         {
-            this._csvFilePath = csvfilePath;
+            _csvFilePath = csvFilepath;
         }
         public List<Assets> GetAssetsFromFile()
         {
@@ -27,7 +28,7 @@ namespace SmartToolingMiniProject
             return AssetsList;
         }
 
-        public Assets ReadAssetsFromCsvLine(string csvLine)
+        private Assets ReadAssetsFromCsvLine(string csvLine)
         {
             string[] parts = csvLine.Split(',');
 

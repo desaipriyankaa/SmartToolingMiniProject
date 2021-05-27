@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SmartToolingMiniProject
 {
-    class Assets
+    public class Assets
     {
         public string MachineName { get; set; }
         public string AssetName { get; set; }
