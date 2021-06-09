@@ -113,6 +113,16 @@ namespace SmartToolingMiniProject
                         }
                         break;
 
+                    case 3:
+                        Console.WriteLine("Asset with Latest series is : ");
+                        var data3 = obj.UpdatedSeries();
+                        foreach (var item in data3)
+                        {
+                            Console.WriteLine(item);
+                        }
+                        break;
+
+
                     default:
                         Console.WriteLine("Invalid choice...");
                         break;
